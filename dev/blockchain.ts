@@ -1,5 +1,7 @@
+import { Block } from "./models";
+
 class Blockchain {
-  chain: any[];
+  chain: Block[];
   newTransactions: any[];
 
   constructor() {
